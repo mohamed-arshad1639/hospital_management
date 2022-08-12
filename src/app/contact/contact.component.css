@@ -1,0 +1,60 @@
+.page-title{
+    background-image: url(../../assets/appointmentBanner1.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    color: white;
+}
+.banner{
+    margin-top: -20px;
+}
+.page-title .row{
+    background: #223A66;
+    opacity: 80%;
+    height: 400px;
+    width: 100%;
+}
+.block{
+    margin-top: 130px;
+}
+.block .text-white{
+    font-size: 20px;
+}
+.block .text-capitalize{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.section-title h2{
+    color: #223A66;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+.section-title p{
+    font-size: medium;
+    margin-bottom: 50px;
+}
+.btn-main {
+    background: #223a66;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px;
+    width: 170px;
+    margin-top: 30px;
+}
+.btn-main:hover{
+    background: red;
+}
+
+.google-map{
+    margin-top: 50px;
+    width: 100%;
+}
+.google-map #map {
+    width: 100%;
+    height: 500px;
+}

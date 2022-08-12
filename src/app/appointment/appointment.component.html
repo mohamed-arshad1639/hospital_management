@@ -1,0 +1,94 @@
+<div class="banner">
+  <section class="page-title bg-1">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="block text-center">
+            <span class="text-white">Book your Seat</span>
+            <h1 class="text-capitalize mb-5 text-lg">Appoinment</h1>
+          </div>
+        </div>
+      </div>
+  </section>
+</div>
+
+
+<section class="section appoinment">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 ">
+				<div class="appoinment-content">
+					<img src="../../assets/doctor.jpg" alt="" class="img-fluid1">
+					<div class="emergency">
+						<h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+23 345 67980</h2>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-10 ">
+				<div class="appoinment-wrap mt-5 mt-lg-0">
+					<h1 class="mb-2 title-color">Book appoinment</h1>
+					<p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit soluta ab ducimus illo minus. Dolor fugiat earum iure veniam. Ducimus, tenetur adipisci sunt quae ea dolores omnis fuga similique nisi.</p>
+					     <form id="#" class="appoinment-form" method="post" action="#">
+                    <div class="row">
+                         <div class="col-lg-6">
+                            <div class="form-group">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option disabled selected value>--Choose Department--</option>
+                                  <option value="dermatology">Dermatology</option>
+                                  <option value="oncology">Oncology</option>
+                                  <option value="radiology">Radiology</option>
+                                  <option value="anaesthesiology & critical care">Anaesthesiology & Critical Care</option>
+                                  <option value="cardiology">cardiology</option>
+                                  <option value="ent"> ENT</option>
+                                  <option value="gynacology">gynaecology</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <select class="form-control" id="exampleFormControlSelect2">
+                                  <option disabled selected value>--Select Doctors--</option>
+                                  <option value="alex">Dr Alex Abraham</option>
+                                  <option value="raju">Dr Raju Varghees</option>
+                                  <option value="arun">Dr Arun Kumar</option>
+                                  <option value="nimisha">Dr Nimisha Pramod</option>
+                                  <option value="saheer">Dr Saheer</option>
+                                  <option value="shareef">Dr Shareef</option>
+                                  <option value="geetha">Dr Geetha Govind</option>
+                                </select>
+                            </div>
+                        </div>
+
+                         <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="date" id="date" min="{{this.currentdate | date:'yyyy-MM-dd'}}" max="2022-12-31" type="date" class="form-control" placeholder="dd/mm/yyyy">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="time" id="time" type="time" class="form-control" placeholder="Time">
+                            </div>
+                        </div>
+                         <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="name" id="name" type="text" class="form-control" placeholder="Full Name">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="phone" id="phone" type="Number" class="form-control" placeholder="Phone Number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group-2 mb-4">
+                        <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
+                    </div>
+
+                    <a class="btn btn-main btn-round-full">Make Appoinment <i class="icofont-simple-right ml-2  "></i></a>
+                </form>
+            </div>
+			</div>
+		</div>
+	</div>
+</section>

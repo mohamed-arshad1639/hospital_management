@@ -1,0 +1,114 @@
+.page-title{
+    background-image: url(../../assets/appointmentBanner1.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    color: white;
+}
+.banner{
+    margin-top: -20px;
+}
+.page-title .row{
+    background: #223A66;
+    opacity: 80%;
+    height: 400px;
+    width: 100%;
+}
+.block{
+    margin-top: 130px;
+}
+.block .text-white{
+    font-size: 20px;
+}
+.block .text-capitalize{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.doctors .section-title h2{
+    color: #223A66;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+.doctors .section-title p{
+    font-size: medium;
+}
+.doctor-profile{
+    margin-top: 50px;
+}
+.doctor-profile img{
+    width: 210px;
+}
+.content h4,
+.content p{
+    color: #223A66;
+}
+.shuffle-item{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: visible;
+    will-change: transform;
+    opacity: 1;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: transform, opacity;
+    transform: translate(0px, 0px) scale(1);
+}
+.portfolio-gallery{
+    margin-left: 100px;
+    position: relative;
+    overflow: hidden;
+    height: 978px;
+    transition: height 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.doctor-img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+    color: red;
+}
+
+/* .content h4:hover,
+.content p:hover{
+    color: red;
+    cursor: pointer;
+} */
+
+
+
+
+.cta-page {
+    background: url(../../assets/banner3.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.text-lg{
+    font-size: 50px;
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-top: 130px;
+}
+.text-lg span{
+    color: #223A66;
+}
+.btn-main-2 {
+    background: #e12454;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+}
+.btn-main-2:hover{
+    background: #223A66;
+}

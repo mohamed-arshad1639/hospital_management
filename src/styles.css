@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    line-height: 1.6;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    /* font-size: 16px; */
+    color: #6F8BA4;
+    background-color: #f4f9fc;
+    font-weight: 400;
+    overflow-x: hidden;
+}

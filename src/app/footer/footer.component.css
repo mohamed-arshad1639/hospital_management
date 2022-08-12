@@ -1,0 +1,114 @@
+.footer{
+    background-color: #f4f9fc;
+    width: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #6F8BA4; 
+    padding: 100px 0 30px;
+    line-height: 20px;
+
+}
+.row{
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+h3{
+    color: #223a66;
+}
+.col{
+    padding: 20px; 
+    width: 300px;
+    text-align: justify;
+}
+.col-2{
+    padding: 20px; 
+    width: 300px;
+    text-align: justify;
+    margin-left: 20px;
+}
+#col-1{
+    margin-left: 28px;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+.col h3{
+    font-family: "Roboto", sans-serif;
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.hov{
+    color: black;
+}
+.hov:hover{
+    color: red;
+    cursor: pointer;
+}
+label{
+    margin-left: 20px;
+}
+.underline{
+    width: 50%;
+    height: 5px;
+    background: red;
+    border-radius: 2px;
+    position: absolute;
+    top: 30px;
+
+}
+p{
+    font-family: "Roboto", sans-serif;
+    margin-top: 26px;
+    line-height: 30px;
+}
+.last-label{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.subscribe{
+    margin-top: 30px;
+    border-radius: 8px;
+
+}
+.btn-last{
+    color:white;
+    background-color: red;
+    border-radius: 50px;
+    width: 140px;
+    height:40px;
+}
+.btn-last:hover{
+    background-color: #383e44;
+
+}
+.input-last{
+    color:black;
+    border-radius: 50px;
+    width: 500px;
+    height:40px;
+
+}
+.end{
+    text-align: center;
+    margin-top: 20px;
+}
+.span-1{
+    color: black;
+}
+.span-1:hover{
+    color: red;
+    cursor: pointer;
+}
+/* #novena{
+    margin-left: 100px;
+} */
